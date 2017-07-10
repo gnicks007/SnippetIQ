@@ -1,0 +1,67 @@
+.sidenav {
+    height: 70%;
+    overflow: scroll;
+    width: 0;
+    position: fixed;
+    top: 100;
+    right: 0;
+    z-index: 999;
+    background-color: #000000;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    margin-top: 60px;
+    opacity: 0.4
+  }
+
+.sidenav a {
+    padding: 18px 18px 18px 132px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.quotes {
+	padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: ##ffd700 ;
+    display: block;
+    transition: 0.3s;
+    font-family: "Courier New",monospace
+
+}
+
+.closed {
+    color: #ffffff ;
+}
+
+.social a {
+	padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000 ;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #000000;
+}
+
+.sidenav .closebtn {
+    position: fixed;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: #000000;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 350px;}
+  .sidenav a {font-size: 18px;}
+}
